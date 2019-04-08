@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityCTimering">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginTop="13dp"
+        android:text="STEPS TO FOLLOW "
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="136dp"
+        android:layout_height="126dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="39dp"
+        android:fontFamily="casual"
+        android:foregroundGravity="top"
+        android:text="Lets Start ! Wash your mouth thoroughly "
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@color/colorYellow"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.713" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="202dp"
+        android:layout_height="187dp"
+        android:gravity="center"
+        android:src="@drawable/tooth2"/>
+
+
+    <ProgressBar
+        android:id="@+id/progressBarCircle"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="290dp"
+        android:layout_height="290dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:background="@drawable/drawable_circle_dark_blue"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="100"
+        android:progressDrawable="@drawable/drawable_circle_yellow"
+        android:rotation="-90" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/countdown_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50sp"
+        tools:text="2:00" />
+
+    <Button
+        android:id="@+id/countdownbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="139dp"
+        android:layout_toStartOf="@+id/tv"
+        android:text="Start"
+        android:fontFamily="monospace"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorYellow"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="24dp"
+        android:text="Play/pause Sound"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="42dp"
+        android:layout_height="37dp"
+        android:layout_alignStart="@+id/tv"
+        android:layout_alignTop="@+id/textView"
+        android:background="@drawable/play"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/countdownbutton"
+        android:layout_marginEnd="81dp"
+        android:text="reset"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        android:background="@color/colorY"
+        android:textColor="@color/colorYellow"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        />
+
+
+</RelativeLayout>

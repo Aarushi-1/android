@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "952453775232",
+    "firebase_url": "https://tootha-36a2d.firebaseio.com",
+    "project_id": "tootha-36a2d",
+    "storage_bucket": "tootha-36a2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952453775232:android:d611eb2de62d2694",
+        "android_client_info": {
+          "package_name": "com.example.aarushi.tootha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952453775232-2c54e3jr6m2v674ofvib6dm7ut6cu1rc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aarushi.tootha",
+            "certificate_hash": "520e306752cdc8b67461e5deede5efbdd13cd7b1"
+          }
+        },
+        {
+          "client_id": "952453775232-8fop7rd07gns9i94aoqq0ugumltrl2dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhM-k2nZW-kd82p1wVm4ixx15Uoh5C4xY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952453775232-8fop7rd07gns9i94aoqq0ugumltrl2dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
